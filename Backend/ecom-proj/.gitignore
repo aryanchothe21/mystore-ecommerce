@@ -1,0 +1,14 @@
+# ---------- FRONTEND (React / Vite) ----------
+node_modules/
+dist/
+.env
+
+# ---------- BACKEND (Spring Boot) ----------
+target/
+*.log
+*.class
+
+# ---------- IDE FILES ----------
+.idea/
+.vscode/
+.DS_Store
