@@ -1,42 +1,41 @@
+# 🛒 MyStore E-Commerce Application
 
-🛒 My Store – E-Commerce Web Application
-My Store is a full-stack E-Commerce web application built using React (Frontend) and Spring Boot (Backend).
-It allows users to browse products, add items, and manage product listings with image upload support.
+A full-stack E-Commerce web application built using **Spring Boot** and **React**.
 
-🚀 Tech Stack
-🔹 Frontend
-React.js (Vite)
-Axios
-Bootstrap / CSS
-React Hooks
+---
 
-🔹 Backend
-Spring Boot
-Spring Data JPA
-Hibernate
-REST API
-MySQL Database
+## 🚀 Tech Stack
 
-✨ Features
-🛍️ View All Products
-➕ Add New Product
-📝 Update Product
-❌ Delete Product
-🖼️ Upload Product Image
-🔎 Search Products
-🌐 REST API Integration
-📦 Database Storage
-🏗️ Project Architect 
+### 🔹 Frontend
+- React.js (Vite)
+- Axios
+- Bootstrap / CSS
+- React Hooks
 
-Frontend (React)
-        ↓
-REST API (Spring Boot)
-        ↓
-MySQL Database
-📂 Project Structure
-Backend (Spring Boot)
-Copy code
+### 🔹 Backend
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- REST API
+- MySQL Database
 
+---
+
+## ✨ Features
+
+- 📦 View All Products
+- ➕ Add New Product
+- ✏️ Update Product
+- ❌ Delete Product
+- 🖼 Upload Product Image
+- 🔎 Search Products
+- 🌐 REST API Integration
+- 🗄 Database Storage
+- 🏗 Clean Project Architecture
+
+---
+
+## 📁 Project Structure
 ecom-proj/
 │
 ├── controller/
@@ -44,74 +43,58 @@ ecom-proj/
 ├── repository/
 ├── model/
 └── application.properties
-Frontend (React)
-Copy code
 
-frontend-eccomerce/
+frontend-ecommerce/
 │
 ├── components/
 ├── App.jsx
 ├── main.jsx
 └── package.json
 
-⚙️ How to Run the Project
-🔹 Backend Setup
-Open project in IntelliJ
-Configure MySQL in application.properties
-Run Spring Boot Application
-Properties
-Copy code
+
+---
+
+## ⚙️ How to Run the Project
+
+### 🔹 Backend Setup (Spring Boot)
+
+1. Open project in IntelliJ IDEA
+2. Configure MySQL database in `application.properties`
+
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/mystore
 spring.datasource.username=root
 spring.datasource.password=yourpassword
-🔹 Frontend Setup
-Bash
-Copy code
+
+
 npm install
 npm run dev
-Open browser:
-Copy code
 
 http://localhost:5173
-🔌 API Endpoints
-Method
-Endpoint
-Description
-GET
-/api/products
-Get all products
-POST
-/api/product
-Add product
-PUT
-/api/product/{id}
-Update product
-DELETE
-/api/product/{id}
-Delete product 
 
-📚 Concepts Covered
-RESTful API Development
-CRUD Operations
-Image Upload using MultipartFile
-React State Management
-Axios API Integration
-Spring Boot + JPA + Hibernate
 
-🎯 Learning Outcome
-Built full-stack application
+🎯 Learning Outcomes
+
+Built a full-stack application
+
 Understood frontend-backend integration
-Implemented file upload system
-Hands-on experience with real-world project structure
+
+Implemented image upload functionality
+
+Hands-on real-world project structure
 
 🔮 Future Improvements
+
 🛒 Add to Cart functionality
+
 💳 Payment Gateway Integration
-🔐 Authentication (JWT)
+
+🔐 JWT Authentication
+
 👤 User Login & Registration
+
 📊 Admin Dashboard
 
 👨‍💻 Author
-Aryan Chothe
 
-B.Tech Student | Java | Spring Boot | React Developer
+Aryan Chothe
